@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Flamenco:wght@300;400&family=Montserrat:wght@200;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 720px;
+}
+
+/* Navbar */
+
+.header-navbar {
+  background-color: #690d00;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+  position: sticky;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  color: #c07f01;
+  font-size: 40px;
+}
+
+.nav-logo p span i {
+  font-size: 35px;
+  position: relative;
+  bottom: 3px;
+}
+
+.nav-quote {
+  width: 250px;
+  position: relative;
+  right: 200px;
+}
+
+.nav-quote p {
+  font-size: 17px;
+  color: #c07f01;
+  text-align: center;
+  font-family: "Flamenco", sans-serif;
+}
+
+.menu-navbar {
+  display: flex;
+  background-color: #c1c1c1;
+}
+
+.nav-menu {
+  height: 100px;
+  display: flex;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-menu ul li {
+  margin-right: 200px;
+}
+
+.nav-menu ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #010101;
+}
+
+.nav-menu ul li a span i {
+  color: #c91700;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+}
+.menu-navbar hr {
+  border: #010101 1px solid;
+  height: 80px;
+  margin: auto 0;
+}
+
+/* End Navbar */
